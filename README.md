@@ -54,31 +54,3 @@ The system uses a **master + sub-agent** architecture:
 
 Each sub-agent works over **local YAML data** or a **document summary**, so the prototype can run without any external services.
 
----
-
-## Repository Structure (Suggested)
-
-```text
-.
-├─ README.md
-├─ agents/
-│  ├─ master-agent-prompt.md
-│  ├─ claims-agent-prompt.md
-│  ├─ benefits-agent-prompt.md
-│  ├─ provider-agent-prompt.md
-│  ├─ appeals-agent-prompt.md
-│  ├─ notification-agent-prompt.md
-│  └─ faq-agent-prompt.md
-├─ data/
-│  ├─ claims-data.yaml
-│  ├─ benefits-data.yaml
-│  ├─ providers-data.yaml
-│  ├─ appeals-guides.yaml
-│  └─ notifications-data.yaml
-├─ knowledge/
-│  └─ benefit-summary-hdhpq-oap-summary.md
-├─ tools/
-│  ├─ miclaim-tools-openapi.yaml      # Optional: OpenAPI spec for tools
-│  └─ (any MCP / watsonx tool configs)
-└─ slides/
-   └─ pitch-deck/                    # Optional: hackathon presentation assets
