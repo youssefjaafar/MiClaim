@@ -1,0 +1,40 @@
+{
+  "providers": [
+    {
+      "name": "Dearborn Physical Therapy Center",
+      "specialty": "physical_therapy",
+      "city": "Dearborn",
+      "address": "7333 Michigan Ave, Dearborn, MI",
+      "distanceMiles": 3.1,
+      "phone": "313-555-2101",
+      "acceptedPlans": ["PH-BlueCross-PPO", "HF-HMO-Prime"]
+    },
+    {
+      "name": "Detroit Cardiology Associates",
+      "specialty": "cardiology",
+      "city": "Detroit",
+      "address": "112 Woodward Ave, Detroit, MI",
+      "distanceMiles": 5.0,
+      "phone": "313-555-4390",
+      "acceptedPlans": ["PH-BlueCross-PPO"]
+    },
+    {
+      "name": "Flint Neurology Clinic",
+      "specialty": "neurology",
+      "city": "Flint",
+      "address": "892 Saginaw St, Flint, MI",
+      "distanceMiles": 9.7,
+      "phone": "810-555-8871",
+      "acceptedPlans": ["HF-HMO-Prime"]
+    },
+    {
+      "name": "Midtown Ortho & Rehab",
+      "specialty": "orthopedics",
+      "city": "Detroit",
+      "address": "301 E Warren Ave, Detroit, MI",
+      "distanceMiles": 2.8,
+      "phone": "313-555-9292",
+      "acceptedPlans": ["AUTO-PIP-2025", "PH-BlueCross-PPO"]
+    }
+  ]
+}
