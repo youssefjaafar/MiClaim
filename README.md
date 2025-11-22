@@ -50,7 +50,7 @@ The system uses a **master + sub-agent** architecture:
   - `ProviderAgent` – In-network provider search (Michigan)  
   - `AppealsAgent` – Denial reasons & appeal steps  
   - `NotificationAgent` – Simulated reminders & alerts  
-  - `FAQAgent` (optional) – General insurance & Michigan No-Fault FAQs
+  - `FAQAgent` – General insurance & Michigan No-Fault FAQs
 
 Each sub-agent works over **local YAML data** or a **document summary**, so the prototype can run without any external services.
 
