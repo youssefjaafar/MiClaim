@@ -28,7 +28,7 @@ This project was created for an AI hackathon focused on **modernizing Michigan i
   - Providers (Detroit, Dearborn, Flint)
   - Appeal guides (common denial reasons & steps)
   - Notifications (simulated reminders)
-- 📘 **Health plan knowledge base**: summary of the Cigna Open Access Plus HDHPQ OAP plan (Brillio)
+- 📘 **Health plan knowledge base**: summary of your plan benefits
 - 🧠 Designed to work with **IBM watsonx Orchestrate / MCP tools** or as LLM prompts
 
 ---
